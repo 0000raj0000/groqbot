@@ -1,0 +1,22 @@
+[project]
+name = "grokbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "0000raj0000", email = "rajnamadev0@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "groq>=1.7.0",
+    "openai>=3.29.0",
+    "pyinstaller>=6.22.3",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+grokbot = "grokbot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
