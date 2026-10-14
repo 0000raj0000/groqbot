@@ -19,7 +19,9 @@
 2. Currently not storing the chat history.
 3. One way communication.
 
-\## Commands
+## Commands
 
 1. Use 'Q' or 'QUIT' to quit the bot.
 
+## Improvements
+1. added 'exit' to quit or exit the program - (15/10/2026)

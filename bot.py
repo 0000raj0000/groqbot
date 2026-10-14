@@ -50,7 +50,7 @@ if __name__ == "__main__":
     print("enter q or quit to exit\n")
     while True:
         question = input("what U wanna ask??\n-\t")
-        if question.strip().lower() == "q" or question.strip().lower() == "quit":
+        if question.strip().lower() in ['q', 'quit', 'exit']:
             break
         # update_history('user', question)
         main(question)
